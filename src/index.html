@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="main">Namaste React via HTML</div>
+    <div id="main">Namaste React loaded via HTML</div>
 
     <div id="javascript"></div>
 
@@ -20,14 +20,11 @@
 
         const title = document.createElement('h1');
         title.setAttribute('id', 'title')
-        title.innerHTML = 'Namaste React via JavaScript'
+        title.innerHTML = 'Namaste React loaded via JavaScript'
         
         root.appendChild(title)
     </script>
 
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-    <script src="index.js"></script>
+    <script type="module" src="index.js"></script>
 </body>
 </html>

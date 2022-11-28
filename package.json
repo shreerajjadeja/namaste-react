@@ -1,0 +1,40 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "- Day to day practice and learning React",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreerajjadeja/namaste-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreerajjadeja/namaste-react/issues"
+  },
+  "homepage": "https://github.com/shreerajjadeja/namaste-react#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.0",
+    "process": "^0.11.10"
+  },
+  "browserlists":{
+    "production":[
+      ">=0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development":[
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
